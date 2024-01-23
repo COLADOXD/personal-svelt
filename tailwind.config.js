@@ -20,6 +20,11 @@ export default {
   },
   plugins: [
     // 4. Append the Skeleton plugin (after other plugins)
-    skeleton,
+    skeleton({
+      themes: {
+        // Register each theme within this array:
+        preset: ["skeleton", "modern", "crimson"],
+      },
+    }),
   ],
 };
