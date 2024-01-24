@@ -8,8 +8,4 @@
     <Avatar src={AvatarBg} width="w-20" rounded="rounded-full" />
     <p class="ml-4 text-xl">Mateo Sebastian Chacon</p>
   </div>
-  <div>
-    <button>Theme</button>
-    <button>Theme</button>
-  </div>
 </nav>
